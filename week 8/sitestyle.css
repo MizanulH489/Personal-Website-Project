@@ -1,0 +1,247 @@
+body {
+    background-color: #faf2e4;
+    margin: 0 10%;
+    font-family: sans-serif;
+    }
+   h1 {
+    text-align: center;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #57dc78;
+    margin-top: 30px;
+   }
+   
+   h2 {
+    color: #d14d3c;
+    font-size: 1em;
+   }
+
+
+   h1{
+    color: black;
+  }
+  
+  h2{
+    color:#d14d3c 
+  }
+  
+  body{
+    background-color:#d2dc9d;
+    background-image:url(images/always-grey.png);
+    background-position: center top;
+   /* background-image: url(images/always-grey.png);
+   background-position: center 200px; */
+  
+  } 
+  
+
+/*table*/
+  td, th { border: 1px solid #CCC; }
+  table { border: 1px solid black; }
+ 
+
+  h1 {
+    color: black;
+    border-bottom: 1px solid  orange;
+   }
+   p {
+    font-size: large;
+    font-family: sans-serif;
+   }
+
+   p {
+     margin-left: 100px;
+   }
+
+  h2 {
+   margin-left: 100px;
+  }
+   
+
+  
+  header{
+    color: 255;
+  }
+  
+  a:link { color: 937393; }
+  
+  a:hover {
+    color: #c700f2 ;
+    background-color: #fff ;
+  }
+  
+  a:visited{
+    color: ff00ff
+  }
+
+ 
+
+  body {font-family: Verdana, sans-serif;}
+  h1 {font-family: "Marko One", Georgia, serif;}
+  
+ body {
+  font-family: Verdana, sans-serif;
+  font-size: 100%;
+ }
+
+ h1 {
+  font-size: 1.5em;
+ }
+
+ h2 {
+  font-size: 1em;
+ }
+#info { color:red; }
+
+p.warning, sup {
+ font-size: small;
+ color: red;
+}
+
+
+
+  header {
+    margin-top: 0;
+    padding: 3em 1em 2em 1em;
+    text-align: center ;
+    background-color: rgba(177, 171, 171, 0.5);
+    background-image: url(images/bcircle.png);
+    background-repeat: repeat-x;
+   }
+
+/*13-7 */
+ background:
+
+  url(images/alwaysgrey.png) center top
+repeat-x;
+ background:
+ url(images/purpledot.png) left top repeat-y,
+ url(images/purpledot.png) right top repeat-y,
+ url(images/gooseshadow.png) 90% bottom no-repeat;
+ background-color:rgba (255,255,255,5);
+  }
+
+/*14-1 */
+/*14-2: I added border features around it */
+
+html {
+  box-sizing: border-box;
+ }
+ * {
+  box-sizing: inherit;
+ }
+
+ header {
+  
+  height: 15em;
+ } 
+
+ main {
+  padding: 1em;
+  border: double 4px #0c0202; 
+  border-radius: 25px; 
+ 
+}
+
+aside {
+  padding: 1em;
+  padding-left: 45px;
+  border-top-right-radius: 25px;
+ }
+
+ footer {
+  
+  padding: 1em;
+ }
+
+ h3 {
+  
+  border-top: 1px solid;
+  border-left: 3px solid;
+  padding-left: 1em;
+  margin-top: 2.5em;
+ }
+
+
+ a {
+  text-decoration: none;
+  padding-bottom: .2em;
+ }
+
+ /*14-3 */
+ body {
+  margin: 0;
+ }
+
+ nav ul {
+  margin: 0;
+ }
+
+ header h1 {
+  margin-top: 1.5em;
+ }
+
+ main {
+
+  margin: 2.5%;
+ }
+
+ h3{
+  margin-top: 2.5em;
+ }
+
+ /*15-1 edits */
+/* THe first edit was implemented but caused my website to look very improper */
+
+/*
+main img {
+  float: left;
+  margin: 0 1em 1em 0; 
+
+ }
+*/
+
+ p.more {
+  clear: left;
+ }
+
+ img[src*="SportLogo.png"] {
+  margin-left: 50px;
+ } 
+
+
+ /*15-2 */
+
+ img[src*="SportsLogo.png"] {
+  -webkit-shape-outside: circle(125px);
+  shape-outside: circle(125px);
+ }
+
+
+ /*16-1 */
+ nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+
+ }
+ nav ul li a {
+  display: block;
+  border: 1px solid;
+  border-radius: .5em;
+  padding: .5em 1em;
+  margin: .5em;
+ } 
+
+ /*16-2 */
+ #menu {
+  border: 3px solid #783F27;
+  display: flex;
+ }
+
+ section {
+  display: flex;
+  flex-direction: column;
+ }
